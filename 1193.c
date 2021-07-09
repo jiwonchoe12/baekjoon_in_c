@@ -1,20 +1,4 @@
-//시간초과가 나지 않기 위해 반복문을 쓰면 안됨
 #include <stdio.h>
-#include <math.h>
-
-int main(void)
-{
-  int a, b, v;
-  scanf("%d %d %d", &a, &b, &v);
-  int n;
-
-  n = ceil((double)(v-a)/(a-b))+1;
-
-  printf("%d", n);
-  return 0;
-}
-
-/*#include <stdio.h>
 
 int main(void)
 {
@@ -39,4 +23,4 @@ int main(void)
     printf("%d/%d", (count+1-x), x);
   }
   return 0;
-}*/
+}
